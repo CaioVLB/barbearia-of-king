@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.menu-principal{
+    width: 100%;
+    background: rgb(11,18,16);
+    background-image: linear-gradient(90deg, #03b2d4 0%, #090979 35%, #03003b 100%);
+    height: 55px;
+}
+
+body {
+    background: rgb(11,18,16);
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #03b2d4 100%);
+}
+
+section {
+    margin: auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo img {
+    padding: 2px;
+    height: 50px;
+    margin: left;
+}
+
+.header-2 {
+    width: 980px;
+    margin: auto;
+    height: 20px;
+    border-bottom: 3px solid #ffc107;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 30px;
+    height: 40px;
+}
+
+.navbar ul li:hover {
+    border-bottom: 3px solid #03b2d4;
+}
+
+.navbar ul li a{
+    color: #ffc107;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover {
+    color:#03b2d4;
+}
+
+.colun-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.posicao-titulos {
+    color: #ffc107;
+    margin: auto;
+    width: 980px;
+    margin-top: 70px;
+    padding-bottom: 7px;
+
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.container-servicos {
+    background-color: #03003b;
+    max-width: 55%;
+    height: 25vw;
+    margin-left: 14%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+}
+
+.tipos-servico {
+    background: rgb(11,18,16);
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #029ebd 100%);
+    max-width: 90%;
+    height: 23%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    box-shadow: 0px 0px 4px darkcyan;
+}
+
+.tipos-servico img {
+    max-width: 70px;
+    padding: 4px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 6px black);
+}
+
+.tipos-servico h3 {
+    display: flex;
+    align-items: center;
+    max-width: 20%;
+
+    color: #ffc107;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.space-article {
+    margin-bottom: 12px;
+}
